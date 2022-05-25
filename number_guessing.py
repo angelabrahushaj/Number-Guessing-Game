@@ -3,10 +3,10 @@ import random
 print("Loja gjeje numrin\n")
 
 guesses = 0
-number = random.randint(0, 100)
+number = random.randint(0, 30)
 
 while( guesses < 5 ):
-    u_guess = int(input("Supozo nje numer nga 0 deri ne 100: "))
+    u_guess = int(input("Supozo nje numer nga 0 deri ne 30: "))
 
     if u_guess == number:
         print("Ju e gjetet numrin! Ju fituat!")
